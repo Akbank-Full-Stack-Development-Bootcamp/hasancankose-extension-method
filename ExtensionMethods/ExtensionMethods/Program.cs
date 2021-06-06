@@ -1,4 +1,5 @@
 ﻿using System;
+using ExtensionMethods.Extensions;
 
 namespace ExtensionMethods
 {
@@ -6,7 +7,10 @@ namespace ExtensionMethods
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            string number = "-10";
+
+            int a = number.ConvertToInteger();
+            Console.WriteLine(a.AddOddNumbersFromOne());
         }
     }
 }

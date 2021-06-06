@@ -11,6 +11,16 @@ namespace ExtensionMethods
 
             int a = number.ConvertToInteger();
             Console.WriteLine(a.AddOddNumbersFromOne());
+
+            string text = "Hasan";
+
+            int[] numbers = text.ConvertToAscii();
+
+            foreach(int num in numbers)
+            {
+                Console.WriteLine(num);
+
+            }
         }
     }
 }

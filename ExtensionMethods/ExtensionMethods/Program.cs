@@ -9,8 +9,8 @@ namespace ExtensionMethods
         {
             string number = "-10";
 
-            int a = number.ConvertToInteger();
-            Console.WriteLine(a.AddOddNumbersFromOne());
+            int convertedNumber = number.ConvertToInteger();
+            Console.WriteLine(convertedNumber.AddOddNumbersFromOne());
 
             string text = "Hasan";
 
